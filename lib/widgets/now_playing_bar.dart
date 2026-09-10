@@ -41,8 +41,9 @@ class _NowPlayingBarState extends State<NowPlayingBar> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_pm.hasTrack)
+    if (!_pm.hasTrack) {
       return const Positioned(top: 0, left: 0, child: SizedBox.shrink());
+    }
 
     final screenSize = MediaQuery.of(context).size;
 
