@@ -31,8 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.8
-  google_fonts: ^6.2.1
+  lucide_icons_flutter: ^3.1.15
   permission_handler: ^11.3.1
   just_audio: ^0.9.43
 
@@ -52,11 +51,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
-  uses-material-design: true
+  uses-material-design: false
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Variable.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

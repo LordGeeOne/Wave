@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flutter: Get dependencies",
+      "type": "shell",
+      "command": "flutter pub get",
+      "inAgents": true,
+      "runOptions": {
+        "runOn": "worktreeCreated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Flutter: Run with hot reload",
+      "type": "shell",
+      "command": "flutter run",
+      "inAgents": true,
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
